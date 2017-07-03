@@ -23,7 +23,7 @@
 #
 tags
 TAGS
-vmlinux*
+vmlinux
 !vmlinux.lds.S
 System.map
 Module.symvers
@@ -52,3 +52,8 @@ cscope.*
 
 *.orig
 *.rej
+
+out_x86
+out_x86_64
+!out_x86/.config
+!out_x86_64/.config
